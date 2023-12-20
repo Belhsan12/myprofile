@@ -33,9 +33,9 @@ function ResumeSection() {
             <p><em>ISET Kelibia</em></p>
              </div>
              <div className="resume-item">
-    <h4>BACCALAURÉAT INFO Principal Admis avec Mention</h4>
+    <h4>computer science baccalaureate admitted</h4>
     <h5>2020</h5>
-    <h5>Lycée Sidi Hssine</h5>
+    <h5>high school Sidi Hssine</h5>
     </div>
           </div>
           <div className="col-lg-6">

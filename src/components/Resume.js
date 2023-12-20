@@ -46,7 +46,6 @@ function ResumeSection() {
               <p><em>Transtu, Gongures, Tunisia</em></p>
               <ul>
                 <li>Full Stack Developer specializing in MERN technology</li>
-                {"<!-- Add more responsibilities and tasks here -->"}
               </ul>
             </div>
             <div className="resume-item">

@@ -1,24 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+//import header
+import Header from './components/Header';
+import HeroSection from './components/Hero';
+import AboutSection from './components/About';
+import FactsSection from './components/Facts';
+import ResumeSection from './components/Resume';
+import Portfolio from './components/Portfolio';
+import ServicesSection from './components/Services';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import Skills from './components/Skills';
+//import CerficatesSection
+import CerficatesSection from './components/Certificates';
+
 
 function App() {
+  const show = false
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+<div>
+  <Header />
+  <HeroSection />
+  <main id="main">
+    <AboutSection />
+    <FactsSection />
+    <Skills />
+    <ResumeSection />
+    {show &&<Portfolio />}
+    <ServicesSection />
+    <CerficatesSection />
+    <Contact />
+    <Footer />
+
+
+    </main>
+</div>
+
   );
 }
 
